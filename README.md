@@ -6,8 +6,8 @@ Link shortener program (php+json)
 3. To run, you must enter the browser's address below.
 4. example
 5. api/url.php?url=www.iran.ir&key=2203
-3-3. output In the form json
-3-4. {
+6. output In the form json
+7. {
     "msg": "stored in the database",
     "url_short": "url.ir/S5RdphJ",
     "date": "2017-06-28",
