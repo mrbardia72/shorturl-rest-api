@@ -5,7 +5,7 @@ Link shortener program (php+json)
 2. Configuration file and functions to run the program(includes/function.php)
 3. To run, you must enter the browser's address below.
 3-1. example
-3-2. api/url.php?url=www.jajiga.ir&key=2203
+3-2. api/url.php?url=www.iran.ir&key=2203
 3-3. output In the form json
 3-4. {
     "msg": "stored in the database",
