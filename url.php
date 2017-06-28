@@ -20,7 +20,7 @@ include_once 'includes/function.php';
 
 
 
-    /* call class shorturl */
+    /* call class shorturl. */
     $obj= new shorturl();
    $obj->auth_user($kay , $path);
 }
