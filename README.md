@@ -1,6 +1,6 @@
 # shorturl-api
 Link shortener program (php+json)
-The first step is to implement the shortening program Need to download permission.sql and urls.sql  batch in y mysql
+//The first step is to implement the shortening program Need to download permission.sql and urls.sql  batch in y mysql
 1. The original file to run (Url.php)
 2. Configuration file and functions to run the program(includes/function.php)
 3. To run, you must enter the browser's address below.
