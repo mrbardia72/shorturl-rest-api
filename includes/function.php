@@ -100,11 +100,11 @@ class shorturl
                 'counter create shorturl' => $counter+1
             );
             header('Content-Type: application/json');
-            echo json_encode($output_fetch, JSON_PRETTY_PRINT);
+            echo json_encode($output_fetch, JSON_UNESCAPED_SLASHES);
         } else {
             $error = array('msg' => 'invalid url');
             header('Content-Type: application/json');
-            echo json_encode($error, JSON_PRETTY_PRINT);
+            echo json_encode($error, JSON_UNESCAPED_SLASHES);
         }
     }
 
@@ -129,7 +129,7 @@ class shorturl
                 'counter create shorturl user by' => $counter
             );
             header('Content-Type: application/json');
-            echo json_encode($output_fetch, JSON_PRETTY_PRINT);
+            echo json_encode($output_fetch, JSON_UNESCAPED_SLASHES);
         }
     }
 
@@ -152,7 +152,7 @@ class shorturl
     {
         $Authentication = array('msg' => 'You do not have permission to access short link');
         header('Content-Type: application/json');
-        return json_encode($Authentication, JSON_PRETTY_PRINT);
+        return json_encode($Authentication, JSON_UNESCAPED_SLASHES);
     }
 
     /* Authentication */
